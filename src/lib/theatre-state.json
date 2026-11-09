@@ -1,0 +1,155 @@
+{
+  "sheetsById": {
+    "Process": {
+      "staticOverrides": {
+        "byObject": {
+          "Blueprint": {
+            "trace": 0,
+            "tilt": 0,
+            "rotate": 0,
+            "glow": 0
+          }
+        }
+      },
+      "sequence": {
+        "subUnitsPerUnit": 30,
+        "length": 1,
+        "type": "PositionalSequence",
+        "tracksByObject": {
+          "Blueprint": {
+            "trackData": {
+              "traceTrack": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Blueprint:[\"trace\"]",
+                "keyframes": [
+                  {
+                    "id": "trace-k1",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 0.03
+                  },
+                  {
+                    "id": "trace-k2",
+                    "position": 0.26,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 0.38
+                  },
+                  {
+                    "id": "trace-k3",
+                    "position": 0.58,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 0.72
+                  },
+                  {
+                    "id": "trace-k4",
+                    "position": 0.82,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 0.94
+                  },
+                  {
+                    "id": "trace-k5",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 1
+                  }
+                ]
+              },
+              "tiltTrack": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Blueprint:[\"tilt\"]",
+                "keyframes": [
+                  {
+                    "id": "tilt-k1",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "tilt-k2",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 2.6
+                  }
+                ]
+              },
+              "rotateTrack": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Blueprint:[\"rotate\"]",
+                "keyframes": [
+                  {
+                    "id": "rotate-k1",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "rotate-k2",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": -2.2
+                  }
+                ]
+              },
+              "glowTrack": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Blueprint:[\"glow\"]",
+                "keyframes": [
+                  {
+                    "id": "glow-k1",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "glow-k2",
+                    "position": 0.45,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 0.55
+                  },
+                  {
+                    "id": "glow-k3",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [0.5, 1, 0.5, 0],
+                    "type": "bezier",
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"trace\"]": "traceTrack",
+              "[\"tilt\"]": "tiltTrack",
+              "[\"rotate\"]": "rotateTrack",
+              "[\"glow\"]": "glowTrack"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": ["atelier-vance-process-v1"]
+}
