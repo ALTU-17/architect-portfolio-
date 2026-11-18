@@ -73,7 +73,7 @@ export function Capabilities() {
             >
               <Image
                 src="/images/studio.jpg"
-                alt="Material samples and drawings in the Atelier Vance studio"
+                alt="Material samples and drawings in the Er Jameel Shaikh studio"
                 fill
                 sizes="(max-width: 980px) 90vw, 36vw"
                 className="object-cover"

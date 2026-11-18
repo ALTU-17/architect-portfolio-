@@ -49,10 +49,10 @@ export function Nav() {
         transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className="nav__inner shell">
-          <a className="nav__brand" href="#top" aria-label="Atelier Vance, back to top">
-            <span className="nav__monogram">AV</span>
+          <a className="nav__brand" href="#top" aria-label="Er Jameel Shaikh, back to top">
+            <span className="nav__monogram">JS</span>
             <span className="nav__wordmark">
-              <strong>Atelier Vance</strong>
+              <strong>Er Jameel Shaikh</strong>
               <span>Interior architecture</span>
             </span>
           </a>

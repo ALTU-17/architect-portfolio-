@@ -26,8 +26,8 @@ const instrumentItalic = Instrument_Serif({
 export const metadata: Metadata = {
   metadataBase: new URL("https://atelier-vance.example"),
   title: {
-    default: "Atelier Vance — Interior Architecture",
-    template: "%s — Atelier Vance",
+    default: "Er Jameel Shaikh — Interior Architecture",
+    template: "%s — Er Jameel Shaikh",
   },
   description:
     "Aurelio Vance is an interior architect working between Milan and Copenhagen. Quiet, tactile interiors for living, hospitality and culture.",
@@ -36,12 +36,12 @@ export const metadata: Metadata = {
     "interior designer",
     "Milan",
     "Copenhagen",
-    "Atelier Vance",
+    "Er Jameel Shaikh",
     "Aurelio Vance",
   ],
-  authors: [{ name: "Atelier Vance" }],
+  authors: [{ name: "Er Jameel Shaikh" }],
   openGraph: {
-    title: "Atelier Vance — Interior Architecture",
+    title: "Er Jameel Shaikh — Interior Architecture",
     description:
       "Quiet, tactile interiors shaped by light, material and ritual. Milan / Copenhagen.",
     type: "website",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Atelier Vance — Interior Architecture",
+    title: "Er Jameel Shaikh — Interior Architecture",
     description: "Quiet, tactile interiors shaped by light, material and ritual.",
     images: ["/images/hero.jpg"],
   },

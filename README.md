@@ -1,4 +1,4 @@
-# Atelier Vance
+# Er Jameel Shaikh
 
 A cinematic concept portfolio for a fictional interior architect, **Aurelio Vance** (Milan / Copenhagen). Built with Next.js, TypeScript, Tailwind CSS and a deliberately tactile motion layer.
 

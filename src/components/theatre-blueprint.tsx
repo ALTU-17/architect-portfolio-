@@ -54,7 +54,7 @@ export function TheatreBlueprint() {
       const config = { state: theatreState } as unknown as Parameters<
         typeof getProject
       >[1];
-      const project = getProject("Atelier Vance — Process", config);
+      const project = getProject("Er Jameel Shaikh — Process", config);
       const sheet = project.sheet("Process");
       const blueprint = sheet.object("Blueprint", {
         trace: 0,

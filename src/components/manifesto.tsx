@@ -31,7 +31,7 @@ export function Manifesto() {
           copy={
             <>
               <p>
-                Atelier Vance is a small interior architecture practice working
+                Er Jameel Shaikh is a small interior architecture practice working
                 between Milan and Copenhagen. We design homes, small hotels and
                 workplaces with a slow, material-led approach.
               </p>
@@ -47,13 +47,13 @@ export function Manifesto() {
         <div className="manifesto__grid" style={{ marginTop: "clamp(3rem, 6vw, 5.5rem)" }}>
           <Reveal className="manifesto__portrait" y={34}>
             <div className="portrait-frame">
-              <Image
+              {/* <Image
                 src="/images/portrait.jpg"
                 alt="Portrait of fictional interior architect Aurelio Vance"
                 fill
                 sizes="(max-width: 980px) 80vw, 35vw"
                 className="object-cover"
-              />
+              /> */}
             </div>
             <div className="portrait-caption">
               <span>Aurelio Vance</span>

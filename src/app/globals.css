@@ -575,6 +575,22 @@ svg {
   gap: clamp(1.5rem, 6vw, 7rem);
 }
 
+.loader-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(0.9rem, 1.8vw, 1.45rem);
+  max-width: 100%;
+  min-width: 0;
+}
+
+.loader-developer {
+  flex: 0 0 100%;
+  margin-top: 0.7rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid rgba(241, 237, 229, 0.12);
+}
+
 .loader-blueprint {
   position: relative;
   width: min(46vw, 560px);
@@ -654,6 +670,7 @@ svg {
 
 .loader-bottom {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
   gap: 2rem;
@@ -1006,7 +1023,7 @@ svg {
 
 .hero {
   position: relative;
-  padding-top: clamp(7.5rem, 13vh, 10.5rem);
+  padding-top: clamp(1.5rem, 10vh, 10.5rem);
   overflow: hidden;
 }
 
@@ -3048,6 +3065,52 @@ svg {
   color: var(--paper);
 }
 
+.footer__developer {
+  padding-bottom: 1.2rem;
+}
+
+.developer-credit {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem 0.85rem;
+  font-size: 0.62rem;
+  line-height: 1.55;
+  letter-spacing: 0.06em;
+  color: rgba(248, 245, 239, 0.52);
+}
+
+.developer-credit__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  color: inherit;
+  text-decoration: none;
+  transition: color 250ms ease;
+}
+
+.developer-credit__item svg {
+  flex: none;
+  color: var(--terra);
+}
+
+.developer-credit__item:hover {
+  color: var(--paper);
+}
+
+.developer-credit__item:focus-visible {
+  outline: 1px solid var(--terra);
+  outline-offset: 0.22rem;
+}
+
+.developer-credit__divider {
+  flex: none;
+  width: 1px;
+  height: 0.8rem;
+  background: rgba(241, 237, 229, 0.2);
+}
+
 /* ------------------------------------------------------------------ */
 /* Responsive                                                          */
 /* ------------------------------------------------------------------ */
@@ -3393,6 +3456,20 @@ svg {
   }
   .loader-center {
     gap: 1rem;
+  }
+  .loader-stage {
+    gap: 0.8rem;
+  }
+  .loader-developer {
+    margin-top: 0.55rem;
+    padding-top: 0.55rem;
+  }
+  .developer-credit {
+    gap: 0.45rem 0.65rem;
+    font-size: 0.55rem;
+  }
+  .developer-credit__divider {
+    display: none;
   }
   .loader-side {
     display: none;

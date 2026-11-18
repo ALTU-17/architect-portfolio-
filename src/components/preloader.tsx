@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
+import { DeveloperCredit } from "@/components/developer-credit";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -124,7 +125,7 @@ export function Preloader({ onComplete }: { onComplete: () => void }) {
     <div
       className="preloader"
       role="status"
-      aria-label="Atelier Vance is loading"
+      aria-label="Er Jameel Shaikh is loading"
       aria-live="polite"
     >
       <div className="preloader__panels" aria-hidden="true">
@@ -159,7 +160,7 @@ export function Preloader({ onComplete }: { onComplete: () => void }) {
           <div className="loader-top__brand">
             <span className="loader-top__mark">AV</span>
             <div>
-              Atelier Vance
+              Er Jameel Shaikh
               <br />
               Interior architecture
             </div>
@@ -181,7 +182,8 @@ export function Preloader({ onComplete }: { onComplete: () => void }) {
             Space / Light / Material
           </span>
 
-          <div className="loader-blueprint" aria-hidden="true">
+          <div className="loader-stage">
+            <div className="loader-blueprint" aria-hidden="true">
             <svg viewBox="0 0 600 400">
               <motion.rect
                 x="60"
@@ -329,7 +331,8 @@ export function Preloader({ onComplete }: { onComplete: () => void }) {
                 N
               </motion.text>
             </svg>
-            <span className="loader-scanline" aria-hidden="true" />
+              <span className="loader-scanline" aria-hidden="true" />
+            </div>
           </div>
 
           <span className="loader-mono hidden lg:block" aria-hidden="true">
@@ -350,6 +353,7 @@ export function Preloader({ onComplete }: { onComplete: () => void }) {
               drafted
             </span>
           </div>
+          <DeveloperCredit className="loader-developer" compact />
         </div>
       </motion.div>
 

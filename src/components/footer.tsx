@@ -1,4 +1,5 @@
 import { ArrowUp } from "lucide-react";
+import { DeveloperCredit } from "@/components/developer-credit";
 import { studio } from "@/data/studio";
 
 export function Footer() {
@@ -7,9 +8,9 @@ export function Footer() {
       <div className="shell footer__inner">
         <div className="footer__grid">
           <div className="footer__brand">
-            <span className="footer__monogram">AV</span>
+            <span className="footer__monogram">JS</span>
             <p>
-              Atelier Vance is an interior architecture practice working between
+              Er Jameel Shaikh is an interior architecture practice working between
               Milan and Copenhagen. Quiet rooms, made slowly.
             </p>
             <a className="link-line" href="#contact" style={{ marginTop: "0.5rem" }}>
@@ -67,8 +68,10 @@ export function Footer() {
           </div>
         </div>
 
+        <DeveloperCredit className="footer__developer" />
+
         <div className="footer__base">
-          <span>© 2026 Atelier Vance — All rights reserved</span>
+          <span>© 2026 Er Jameel Shaikh — All rights reserved</span>
           <span
             style={{
               maxWidth: "34rem",

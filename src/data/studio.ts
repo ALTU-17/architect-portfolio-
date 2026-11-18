@@ -16,7 +16,7 @@ export type Project = {
 };
 
 export const studio = {
-  name: "Atelier Vance",
+  name: "Er Jameel Shaikh",
   architect: "Aurelio Vance",
   role: "Interior Architect",
   tagline: "Spaces that hold silence.",
@@ -32,7 +32,7 @@ export const studio = {
     "A room is never only a room. It is a sequence of thresholds, a study in proportion, a holder of light. I work slowly, stripping away the unnecessary until the space has enough confidence to be still.",
   bio: [
     "Aurelio Vance is an Italian interior architect working between Milan and Copenhagen. His practice moves between private residences, small hotels and cultural spaces, always beginning with the same question: how should this room make you feel?",
-    "Trained at Politecnico di Milano and the Royal Danish Academy, Aurelio spent his early career in the studios of Lissoni and David Chipperfield before founding Atelier Vance in 2012. The work is characterised by exacting joinery, tactile natural materials and a restrained palette that lets the changing light do most of the talking.",
+    "Trained at Politecnico di Milano and the Royal Danish Academy, Aurelio spent his early career in the studios of Lissoni and David Chipperfield before founding Er Jameel Shaikh in 2012. The work is characterised by exacting joinery, tactile natural materials and a restrained palette that lets the changing light do most of the talking.",
     "Each project is developed as a complete atmosphere — architecture, furniture, lighting, objects and scent — with a small team of craftspeople and consultants. The studio takes on a limited number of commissions each year.",
   ],
   philosophy:
@@ -77,7 +77,7 @@ export const studio = {
     {
       period: "2012 — Present",
       role: "Founder & Principal",
-      place: "Atelier Vance, Milan",
+      place: "Er Jameel Shaikh, Milan",
     },
     {
       period: "2010 — 2012",

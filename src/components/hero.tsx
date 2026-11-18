@@ -47,13 +47,13 @@ export function Hero() {
         initial={reduceMotion ? false : "hidden"}
         animate={ready ? "show" : "hidden"}
       >
-        <motion.div className="hero__top" variants={fadeUp}>
+        {/* <motion.div className="hero__top" variants={fadeUp}>
           <p className="eyebrow">Interior architecture / Milano — København</p>
           <p className="hero__top-meta">
             <span>Independent studio / Est. 2012</span>
             <span>Selected work 2018 — 2026</span>
           </p>
-        </motion.div>
+        </motion.div> */}
 
         <div className="hero__stage">
           <div>
@@ -136,7 +136,7 @@ export function Hero() {
                 </defs>
                 <text>
                   <textPath href="#seal-circle">
-                    ATELIER VANCE · INTERIOR ARCHITECTURE · EST. 2012 ·
+                    Er Jameel Shaikh · INTERIOR ARCHITECTURE · EST. 2012 ·
                   </textPath>
                 </text>
               </svg>
